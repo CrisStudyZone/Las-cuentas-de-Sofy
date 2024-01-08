@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.lascuentasdesofy.ui.Inicio.InicioFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_inicio">
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_suma"
+            app:destination="@id/nav_suma" />
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_resta"
+            app:destination="@id/nav_resta" />
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_division"
+            app:destination="@id/nav_division" />
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_multiplicacion"
+            app:destination="@id/nav_multiplicacion" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_suma"
+        android:name="com.example.lascuentasdesofy.ui.Suma.SumaFragment"
+        android:label="@string/menu_suma"
+        tools:layout="@layout/fragment_suma" >
+        <action
+            android:id="@+id/action_nav_suma_to_nav_inicio"
+            app:destination="@id/nav_inicio" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_resta"
+        android:name="com.example.lascuentasdesofy.ui.Resta.RestaFragment"
+        android:label="@string/menu_resta"
+        tools:layout="@layout/fragment_resta" >
+        <action
+            android:id="@+id/action_nav_resta_to_nav_inicio"
+            app:destination="@id/nav_inicio" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_multiplicacion"
+        android:name="com.example.lascuentasdesofy.ui.Multiplicacion.MultiplicacionFragment"
+        android:label="@string/menu_multiplicacion"
+        tools:layout="@layout/fragment_multiplicacion" >
+        <action
+            android:id="@+id/action_nav_multiplicacion_to_nav_inicio"
+            app:destination="@id/nav_inicio" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_division"
+        android:name="com.example.lascuentasdesofy.ui.Multiplicacion.MultiplicacionFragment"
+        android:label="@string/menu_division"
+        tools:layout="@layout/fragment_division" >
+        <action
+            android:id="@+id/action_nav_division_to_nav_inicio"
+            app:destination="@id/nav_inicio" />
+    </fragment>
+
+</navigation>

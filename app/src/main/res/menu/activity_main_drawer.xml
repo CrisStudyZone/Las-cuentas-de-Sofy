@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/app_name"/>
+        <item
+            android:id="@+id/nav_suma"
+            android:icon="@mipmap/ic_menu_suma"
+            android:title="@string/menu_suma" />
+        <item
+            android:id="@+id/nav_resta"
+            android:icon="@mipmap/ic_menu_resta"
+            android:title="@string/menu_resta" />
+        <item
+            android:id="@+id/nav_multiplicacion"
+            android:icon="@mipmap/ic_menu_multiplicacion"
+            android:title="@string/menu_multiplicacion" />
+        <item
+            android:id="@+id/nav_division"
+            android:icon="@mipmap/ic_menu_dividir"
+            android:title="@string/menu_division" />
+    </group>
+</menu>

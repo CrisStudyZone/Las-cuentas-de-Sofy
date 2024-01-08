@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Inicio.InicioFragment">
+
+        <ImageView
+            android:id="@+id/buttonSuma"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/suma"
+            android:clickable="true"
+            android:contentDescription="@string/Suma"
+            android:focusable="true"
+            android:text="@string/Button_Suma"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_editor_absoluteY="192dp" />
+
+        <ImageView
+            android:id="@+id/buttonResta"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/resta"
+            android:clickable="true"
+            android:contentDescription="@string/Resta"
+            android:focusable="true"
+            android:text="@string/Button_Resta"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSuma"
+            app:layout_constraintVertical_bias="0.009"
+            app:layout_editor_absoluteY="192dp" />
+
+        <ImageView
+            android:id="@+id/buttonMultiplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:backgroundTint="@color/multiplicacion"
+            android:clickable="true"
+            android:contentDescription="@string/Multiplicacion"
+            android:focusable="true"
+            android:text="@string/Button_Multiplicacion"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonResta"
+            app:layout_constraintVertical_bias="0.042"
+            app:layout_editor_absoluteY="192dp" />
+
+        <ImageView
+            android:id="@+id/buttonDivision"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/division"
+            android:clickable="true"
+            android:contentDescription="@string/Division"
+            android:focusable="true"
+            android:text="@string/Button_Division"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonMultiplicacion"
+            app:layout_constraintVertical_bias="0.049"
+            app:layout_editor_absoluteY="192dp" />
+
+        <TextView
+            android:id="@+id/textQueHaremosHoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="94dp"
+            android:fontFamily="@font/dynapuff_gordo"
+            android:gravity="center"
+            android:text="@string/QueHaremosHoy"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="@android:dimen/app_icon_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/buttonDivision"
+            app:layout_constraintVertical_bias="0.784"
+            app:layout_editor_absoluteY="192dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

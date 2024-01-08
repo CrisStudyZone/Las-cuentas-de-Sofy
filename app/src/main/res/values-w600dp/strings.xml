@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_resta">menu resta\n</string>
+    <string name="menu_suma">menu suma</string>
+    <string name="menu_multiplicacion">menu multiplicacion</string>
+    <string name="menu_division">menu division</string>
+    <string name="ingresa_el_primer_valor">Ingresa el primer Valor</string>
+    <string name="ingresa_el_segundo_valor">Ingresa el segundo valor</string>
+    <string name="button_descomponer">Descomponemos</string>
+    <string name="decenas_de_mil">Decenas de mil</string>
+    <string name="decenas">Decenas</string>
+    <string name="unidades">Unidades\n</string>
+    <string name="centenas">Centenas</string>
+    <string name="igual">IGUAL</string>
+    <string name="descomponer">DESCOMPONER</string>
+    <string name="finalizar_cuenta">Finaliza cuenta</string>
+</resources>

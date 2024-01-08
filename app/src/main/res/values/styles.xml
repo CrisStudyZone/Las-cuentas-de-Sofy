@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="boton_personalizado"
+        parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/suma_relleno</item>
+        <item name="strokeColor">@color/suma_contorno</item>
+    </style>
+    <style name="boton_personalizado_resta"
+        parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/resta</item>
+        <item name="strokeColor">@color/resta_contorno</item>
+    </style>
+</resources>

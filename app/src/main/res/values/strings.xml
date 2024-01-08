@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Las Cuentas De Sofy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">https://github.com/CrisStudyZone</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="QueHaremosHoy">¿Que haremos hoy?</string>
+    <string name="Division">Division</string>
+    <string name="Multiplicacion">Mulitiplicacion</string>
+    <string name="Suma">Suma</string>
+    <string name="Resta">Resta</string>
+
+    <string name="Button_Suma">Suma</string>
+    <string name="Button_Resta">Resta</string>
+    <string name="Button_Division">Division</string>
+    <string name="Button_Multiplicacion">Multiplicacion</string>
+    <string name="menu_resta">menu resta\n</string>
+    <string name="menu_suma">menu suma</string>
+    <string name="menu_multiplicacion">menu multiplicacion</string>
+    <string name="menu_division">menu division</string>
+
+    <string name="ingresa_el_primer_valor">Ingresa el primer Valor</string>
+    <string name="ingresa_el_segundo_valor">Ingresa el segundo valor</string>
+    <string name="button_descomponer">Descomponemos</string>
+    <string name="decenas_de_mil">Decenas de mil</string>
+    <string name="decenas">Decenas</string>
+    <string name="unidades">Unidades\n</string>
+    <string name="centenas">Centenas</string>
+    <string name="igual">IGUAL</string>
+    <string name="descomponer">DESCOMPONER</string>
+    <string name="finalizar_cuenta">Finaliza cuenta</string>
+    <string name="total_final">Total Final</string>
+</resources>
