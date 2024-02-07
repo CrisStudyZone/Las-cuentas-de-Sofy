@@ -14,5 +14,6 @@
     <color name="suma_contorno">#FF00FF</color>
     <color name="suma_relleno">#FF0066</color>
     <color name="resta_contorno">#FF99CC</color>
+    <color name="multiplicacion_contorno">#3498DB</color>
 
 </resources>

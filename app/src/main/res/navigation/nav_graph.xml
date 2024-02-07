@@ -52,6 +52,9 @@
         <action
             android:id="@+id/action_nav_multiplicacion_to_nav_inicio"
             app:destination="@id/nav_inicio" />
+        <action
+            android:id="@+id/action_nav_multiplicacion_to_tablaPtagoricaDialogFragment"
+            app:destination="@id/tablaPtagoricaDialogFragment" />
     </fragment>
 
     <fragment
@@ -63,5 +66,9 @@
             android:id="@+id/action_nav_division_to_nav_inicio"
             app:destination="@id/nav_inicio" />
     </fragment>
+    <dialog
+        android:id="@+id/tablaPtagoricaDialogFragment"
+        android:name="com.example.lascuentasdesofy.core.TablaPtagoricaDialogFragment"
+        android:label="TablaPtagoricaDialogFragment" />
 
 </navigation>

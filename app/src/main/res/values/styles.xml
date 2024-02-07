@@ -10,4 +10,15 @@
         <item name="android:backgroundTint">@color/resta</item>
         <item name="strokeColor">@color/resta_contorno</item>
     </style>
+    <style name="boton_personalizado_multiplicacion"
+        parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/multiplicacion</item>
+        <item name="strokeColor">@color/multiplicacion_contorno</item>
+    </style>
+    <style name="MiBotonTablaStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/multiplicacion</item>
+    </style>
+        
 </resources>

@@ -37,4 +37,8 @@
     <string name="descomponer">DESCOMPONER</string>
     <string name="finalizar_cuenta">Finaliza cuenta</string>
     <string name="total_final">Total Final</string>
+    <string name="ingresa_primer_factor_valor">Ingresa el primer factor</string>
+    <string name="ingresa_el_segundo_factor">Ingresa el segundo factor</string>
+    <string name="Ver_tabla">Ver Tabla</string>
+    <string name="ingresar_valores">Ingresar Valores</string>
 </resources>
